@@ -1,0 +1,161 @@
+{
+  "row_count": 100000,
+  "years_of_experience": {
+    "min": 1.0,
+    "max": 16.9,
+    "mean": 7.17,
+    "median": 6.8
+  },
+  "skills_per_candidate": {
+    "min": 5,
+    "max": 23,
+    "mean": 9.6
+  },
+  "top_titles": [
+    [
+      "Business Analyst",
+      5833
+    ],
+    [
+      "HR Manager",
+      5830
+    ],
+    [
+      "Mechanical Engineer",
+      5791
+    ],
+    [
+      "Accountant",
+      5764
+    ],
+    [
+      "Project Manager",
+      5754
+    ],
+    [
+      "Customer Support",
+      5750
+    ],
+    [
+      "Operations Manager",
+      5744
+    ],
+    [
+      "Content Writer",
+      5727
+    ],
+    [
+      "Sales Executive",
+      5713
+    ],
+    [
+      "Civil Engineer",
+      5702
+    ],
+    [
+      "Graphic Designer",
+      5689
+    ],
+    [
+      "Marketing Manager",
+      5524
+    ],
+    [
+      "Software Engineer",
+      3450
+    ],
+    [
+      "Full Stack Developer",
+      2873
+    ],
+    [
+      "Cloud Engineer",
+      2836
+    ]
+  ],
+  "top_countries": [
+    [
+      "India",
+      75113
+    ],
+    [
+      "USA",
+      9978
+    ],
+    [
+      "Australia",
+      2579
+    ],
+    [
+      "Canada",
+      2506
+    ],
+    [
+      "UK",
+      2472
+    ],
+    [
+      "Germany",
+      2469
+    ],
+    [
+      "Singapore",
+      2453
+    ],
+    [
+      "UAE",
+      2430
+    ]
+  ],
+  "open_to_work": {
+    "true": 35339,
+    "false": 64661
+  },
+  "missing_certifications_pct": 75.0,
+  "honeypot_count": 60,
+  "honeypot_sample": [
+    "CAND_0003430",
+    "CAND_0003582",
+    "CAND_0005291",
+    "CAND_0007353",
+    "CAND_0007413",
+    "CAND_0008960",
+    "CAND_0010294",
+    "CAND_0013536",
+    "CAND_0016000",
+    "CAND_0018515",
+    "CAND_0024752",
+    "CAND_0025579",
+    "CAND_0033131",
+    "CAND_0033817",
+    "CAND_0033972",
+    "CAND_0035104",
+    "CAND_0036299",
+    "CAND_0036839",
+    "CAND_0037539",
+    "CAND_0038431"
+  ],
+  "keyword_stuffer_count": 4862,
+  "keyword_stuffer_sample": [
+    "CAND_0000021",
+    "CAND_0000074",
+    "CAND_0000083",
+    "CAND_0000097",
+    "CAND_0000120",
+    "CAND_0000121",
+    "CAND_0000133",
+    "CAND_0000201",
+    "CAND_0000203",
+    "CAND_0000211",
+    "CAND_0000212",
+    "CAND_0000220",
+    "CAND_0000312",
+    "CAND_0000322",
+    "CAND_0000330",
+    "CAND_0000344",
+    "CAND_0000361",
+    "CAND_0000388",
+    "CAND_0000389",
+    "CAND_0000399"
+  ]
+}

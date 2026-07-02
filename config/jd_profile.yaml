@@ -1,0 +1,145 @@
+role: Senior AI Engineer
+company: Redrob AI
+seniority: senior_founding
+yoe_target: [5, 9]
+yoe_soft_range: [4, 10]
+locations_preferred:
+  - Pune
+  - Noida
+  - Delhi
+  - Delhi NCR
+  - Gurgaon
+  - Gurugram
+  - Bangalore
+  - Bengaluru
+  - Mumbai
+  - Hyderabad
+work_mode: hybrid
+country_preferred: India
+
+must_have_skills:
+  - sentence-transformers
+  - sentence transformers
+  - embeddings
+  - vector search
+  - vector database
+  - pinecone
+  - weaviate
+  - qdrant
+  - milvus
+  - faiss
+  - opensearch
+  - elasticsearch
+  - hybrid search
+  - python
+  - ndcg
+  - mrr
+  - map
+  - ranking evaluation
+  - retrieval
+  - bge
+  - e5
+
+preferred_skills:
+  - lora
+  - qlora
+  - peft
+  - fine-tuning
+  - fine tuning
+  - learning to rank
+  - xgboost
+  - lightgbm
+  - hr-tech
+  - recruiting
+  - rag
+  - llm
+  - pytorch
+  - transformers
+  - huggingface
+
+positive_titles:
+  - AI Engineer
+  - ML Engineer
+  - Senior AI Engineer
+  - Senior Machine Learning Engineer
+  - Machine Learning Engineer
+  - Applied ML Engineer
+  - AI Research Engineer
+  - Data Scientist
+  - Senior Data Scientist
+  - NLP Engineer
+  - Senior NLP Engineer
+  - Staff Machine Learning Engineer
+  - Lead AI Engineer
+  - Senior Software Engineer (ML)
+  - AI Specialist
+  - Recommendation Systems Engineer
+  - Search Engineer
+  - Backend Engineer
+  - Data Engineer
+  - Software Engineer
+  - Full Stack Developer
+  - Cloud Engineer
+
+negative_titles:
+  - HR Manager
+  - Marketing Manager
+  - Accountant
+  - Mechanical Engineer
+  - Civil Engineer
+  - Graphic Designer
+  - Content Writer
+  - Sales Executive
+  - Customer Support
+  - Business Analyst
+  - Operations Manager
+  - Project Manager
+
+consulting_firms:
+  - TCS
+  - Tata Consultancy Services
+  - Infosys
+  - Wipro
+  - Accenture
+  - Cognizant
+  - Capgemini
+  - HCL
+  - Tech Mahindra
+
+career_keywords:
+  - ranking
+  - retrieval
+  - recommendation
+  - embeddings
+  - vector search
+  - hybrid search
+  - search system
+  - semantic search
+  - learning to rank
+  - ndcg
+  - mrr
+  - map
+  - fine-tuning
+  - llm
+  - production deployment
+  - a/b test
+  - recruiter
+  - candidate matching
+
+disqualifier_patterns:
+  title_chaser_min_avg_months: 18
+  honeypot_expert_zero_threshold: 3
+  langchain_only_months: 12
+
+behavioral:
+  notice_period_preferred_days: 30
+  notice_period_acceptable_days: 90
+  inactive_days_penalty_threshold: 180
+
+jd_text: |
+  Senior AI Engineer Founding Team at Redrob AI. Own the intelligence layer: ranking, retrieval,
+  and matching systems for recruiters and candidates. Production embeddings-based retrieval,
+  vector databases, hybrid search, strong Python, ranking evaluation NDCG MRR MAP A/B testing.
+  Ship ranking systems at product companies. Applied ML production not pure research.
+  Pune Noida hybrid India. 5-9 years experience. LLM fine-tuning LoRA learning to rank preferred.
+  Down-rank keyword stuffers, consulting-only careers, title chasers, inactive candidates.

@@ -1,0 +1,20 @@
+weights:
+  semantic: 0.35
+  title_career: 0.25
+  trusted_skills: 0.20
+  yoe_edu_loc: 0.10
+  career_quality: 0.10
+
+coarse_filter:
+  min_semantic: 0.25
+  min_title_score: 0.15
+  min_career_narrative: 0.20
+  max_pool_size: 15000
+
+rerank:
+  cross_encoder_top_k: 500
+  final_top_k: 100
+
+score_range:
+  max: 0.99
+  min: 0.20

@@ -1,0 +1,53 @@
+team_name: "redrob-discovery-engine"
+
+primary_contact:
+  name: "Team Lead"
+  email: "team@example.com"
+  phone: "+91-0000000000"
+
+team_members:
+  - name: "Team Lead"
+    email: "team@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/YOUR_USERNAME/redrob-discovery-engine"
+
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+
+reproduce_command: "python rank.py rank --candidates data/raw/candidates.jsonl --out outputs/submission.csv"
+
+compute:
+  platform: "MacBook Pro"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "macOS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 30
+
+ai_tools_used:
+  - "Cursor"
+  - "Claude"
+
+ai_usage_summary: |
+  Used Cursor and Claude for architecture, code review, and implementation.
+  No candidate data was sent to external LLM APIs during ranking.
+
+methodology_summary: |
+  Two-stage hybrid ranker optimized for NDCG@10. Stage A coarse-filters ~15K
+  candidates by title relevance, semantic JD similarity, and career narrative while
+  excluding honeypots and keyword stuffers. Stage B scores survivors with a weighted
+  blend of precomputed sentence-transformer embeddings, trusted skill match
+  (proficiency × endorsements × duration), YoE/education/location fit, career quality
+  (product vs consulting, tenure stability), and a behavioral availability multiplier
+  from Redrob signals. Reasoning is generated from factual feature breakdowns.
+  Precompute embeds 100K profiles offline; ranking runs CPU-only with no network.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

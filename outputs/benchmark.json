@@ -1,0 +1,17 @@
+{
+  "elapsed_seconds": 20.18,
+  "top_10": [
+    "CAND_0018499",
+    "CAND_0071974",
+    "CAND_0046064",
+    "CAND_0077337",
+    "CAND_0079387",
+    "CAND_0002025",
+    "CAND_0055905",
+    "CAND_0005538",
+    "CAND_0030031",
+    "CAND_0088025"
+  ],
+  "honeypot_rate_top_100": 0.0,
+  "validation_passed": true
+}
